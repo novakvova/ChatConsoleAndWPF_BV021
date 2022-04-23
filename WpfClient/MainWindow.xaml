@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="449" Width="970" FontSize="16pt" Closing="Window_Closing">
+    <Grid>
+        <TextBox Name="txtText" HorizontalAlignment="Left" Margin="28,29,0,0" Text=""  TextWrapping="Wrap" VerticalAlignment="Top" Width="387"/>
+        <Button Content="Send" Name="bntSend" HorizontalAlignment="Left" Margin="479,24,0,0" VerticalAlignment="Top" 
+                RenderTransformOrigin="-0.261,0.222" Height="40" Width="128" Click="bntSend_Click"/>
+        <ListBox Name="lbInfo" HorizontalAlignment="Left" Height="185" Margin="28,82,0,0"  Width="387"/>
+        <Button Name="btnConnect" Content="Connect" HorizontalAlignment="Left" Margin="479,97,0,0" VerticalAlignment="Top" Height="46" Width="128" Click="btnConnect_Click"/>
+
+    </Grid>
+</Window>
