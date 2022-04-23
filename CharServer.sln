@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharServer", "CharServer\CharServer.csproj", "{C402B308-F78B-4987-AB33-18D8CDB16879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharServer", "CharServer\CharServer.csproj", "{C402B308-F78B-4987-AB33-18D8CDB16879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{4A5E72DD-96A4-4B33-B39E-9547447333EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{4A5E72DD-96A4-4B33-B39E-9547447333EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfClient", "WpfClient\WpfClient.csproj", "{3783B711-B4BA-4F3A-8CFF-CA076E814755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfClient", "WpfClient\WpfClient.csproj", "{3783B711-B4BA-4F3A-8CFF-CA076E814755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMessage", "LibMessage\LibMessage.csproj", "{F9C27646-4945-4AB4-A362-A7A323E3110D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibMessage", "LibMessage\LibMessage.csproj", "{F9C27646-4945-4AB4-A362-A7A323E3110D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIServerConsole", "UIServerConsole\UIServerConsole.csproj", "{2C8C9EF8-8DF2-46D4-8D3E-0090E578D5C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F9C27646-4945-4AB4-A362-A7A323E3110D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9C27646-4945-4AB4-A362-A7A323E3110D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9C27646-4945-4AB4-A362-A7A323E3110D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8C9EF8-8DF2-46D4-8D3E-0090E578D5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C9EF8-8DF2-46D4-8D3E-0090E578D5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8C9EF8-8DF2-46D4-8D3E-0090E578D5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8C9EF8-8DF2-46D4-8D3E-0090E578D5C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
