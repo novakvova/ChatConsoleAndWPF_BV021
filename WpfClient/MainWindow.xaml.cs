@@ -131,8 +131,9 @@ namespace WpfClient
                                     break;
 
                                 }
-
                         }
+                        lbInfo.Items.MoveCurrentToLast();
+                        lbInfo.ScrollIntoView(lbInfo.Items.CurrentItem);
                     }
                     catch (Exception ex)
                     {
