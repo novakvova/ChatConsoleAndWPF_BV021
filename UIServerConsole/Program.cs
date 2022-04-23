@@ -9,6 +9,9 @@ using System.Threading;
 
 namespace UIServerConsole
 {
+    /// <summary>
+    /// прикольний сервер
+    /// </summary>
     class Program
     {
         static readonly object _lock = new object();
