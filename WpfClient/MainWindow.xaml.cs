@@ -138,7 +138,7 @@ namespace WpfClient
                     catch (Exception ex)
                     {
 
-                        MessageBox.Show("Deserialize object problem " + ex.Message);
+                        //MessageBox.Show("Deserialize object problem " + ex.Message);
                     }
 
                 }));

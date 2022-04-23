@@ -54,6 +54,7 @@ namespace UIServerConsole
             while (true)
             {
                 NetworkStream stream = client.GetStream();
+                Console.WriteLine("Client endpoint: "+client.Client.RemoteEndPoint);
                 byte[] buffer = new byte[1024];
                 int byte_count = stream.Read(buffer, 0, buffer.Length);
 
